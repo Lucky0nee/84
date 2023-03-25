@@ -9,6 +9,7 @@ int main() {
 		qe.push(rand() % 100 + 1);
 	}
 
+  std::cout << "priority_queue: ";
 	for (int i = 0; i < 25; i++) {
 		std::cout << qe.top() << " ";
 		qe.pop();
